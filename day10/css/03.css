@@ -1,0 +1,33 @@
+table{
+    width: 600px;
+    height: 270px;
+    border-spacing:0px;
+    border: 1px solid #0047e1;
+    margin: auto;
+}
+caption{
+    font-size: 20px;
+    font-weight: bold;
+}
+thead{
+    background: #0047e1;
+    color: #fff;
+}
+tbody .tr1{
+    background: #7e9de5;
+    color: #d8e4f8;
+    text-align: left;
+    font-size: 16px;
+    font-weight: bold;
+}
+tbody .tr2{
+    color: #666666;
+}
+tbody .tr2:nth-child(2n+1){
+    background: #fef0f5;
+}
+td{
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+}

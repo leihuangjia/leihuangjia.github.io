@@ -1,0 +1,44 @@
+label {
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.input1 {
+    width: 400px;
+    height: 40px;
+    border: 1px solid #ccc;
+    padding-left: 10px;
+}
+
+.input2 {
+    width: 200px;
+    height: 40px;
+    border: 1px solid #ccc;
+    padding-left: 10px;
+}
+
+.input3 {
+    width: 400px;
+    height: 60px;
+    border: 1px solid #ccc;
+    padding-left: 10px;
+    background: #3f89ec;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 5px;
+}
+
+fieldset {
+    width: 600px;
+    height: 400px;
+    margin: 100px auto;
+}
+
+.p1 a {
+    text-decoration: none;
+    color: #3f89ec;
+}

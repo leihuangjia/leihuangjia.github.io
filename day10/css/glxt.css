@@ -1,0 +1,283 @@
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.box{
+    height: 100%;
+}
+/* ----top区域---- */
+.box .top{
+    height: 90px;
+    background: #7ab5e9;
+    overflow: hidden;
+    position: relative;
+}
+.box .top h1{
+    width: 428px;
+    height: 50px;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    float: left;
+    text-indent: -999px;
+    background: url(../images/logo.png);
+}
+.box .top .top-admin{
+    width: 264px;
+    height: 21px;
+    background: #fff;
+    position: absolute;
+    top: 0px;
+    right: 30px;
+    border-bottom: 1px solid #e3e2e2;
+    font-size: 12px;
+    line-height: 21px;
+}
+.s1{
+    color: #6d6d6d;
+}
+.img1{
+    margin-left: 10px;
+}
+.box .top .list{
+    width: 665px;
+    height: 56px;
+    position: absolute;
+    bottom: 3px;
+    right: 0px;
+}
+.box .top .list .list1{
+    width: 100%;
+    height: 100%;
+}
+.top .list .list1 .item{
+    width: 95px;
+    height: 100%;
+    position: relative;
+}
+.top .list .list1 .item1{
+    background: url(../images/n1.png) no-repeat center 7px;
+}
+.top .list .list1 .item2{
+    background: url(../images/n2.png) no-repeat center 7px;
+}
+.top .list .list1 .item3{
+    background: url(../images/n3.png) no-repeat center 7px;
+}
+.top .list .list1 .item4{
+    background: url(../images/n4.png) no-repeat center 7px;
+}
+.top .list .list1 .item5{
+    background: url(../images/n5.png) no-repeat center 7px;
+}
+.top .list .list1 .item6{
+    background: url(../images/n6.png) no-repeat center 7px;
+}
+.top .list .list1 .item7{
+    background: url(../images/n7.png) no-repeat center 7px;
+}
+.top .list .list1 .item1:hover{
+    background: url(../images/n1_hover.png) no-repeat center 7px,url(../images/libj.png);
+}
+.top .list .list1 .item2:hover{
+    background: url(../images/n2_hover.png) no-repeat center 7px,url(../images/libj.png);
+}
+.top .list .list1 .item3:hover{
+    background: url(../images/n3_hover.png) no-repeat center 7px,url(../images/libj.png);
+}
+.top .list .list1 .item4:hover{
+    background: url(../images/n4_hover.png) no-repeat center 7px,url(../images/libj.png);
+}
+.top .list .list1 .item5:hover{
+    background: url(../images/n5_hover.png) no-repeat center 7px,url(../images/libj.png);
+}
+.top .list .list1 .item6:hover{
+    background: url(../images/n6_hover.png) no-repeat center 7px,url(../images/libj.png);
+}
+.top .list .list1 .item7:hover{
+    background: url(../images/n7_hover.png) no-repeat center 7px,url(../images/libj.png);
+}
+
+
+.top .list .list1 .item .p1{
+    font-size: 12px;
+    line-height: 18px;
+    color: #fff;
+    position: absolute;
+    bottom: 0px;
+    left: 24px;
+}
+
+
+.box .top .topbj{
+    width: 100%;
+    height: 3px;
+    background: url(../images/headbj.jpg);
+    position: absolute;
+    bottom: 0px;
+}
+
+/* ----bottom区域---- */
+.box .bottom{
+    height: calc(100% - 90px);
+}
+.box .bottom .left{
+    width: 197px;
+    height: 100%;
+    float: left;
+    background: #417ec8 url(../images/leftbj.jpg) repeat-y right;
+}
+.bottom .left .left-1{
+    width: 194px;
+    height: 26px;
+    background: url(../images/e_01.jpg) no-repeat;
+}
+.box .bottom .left .list2 .nav .li1{
+    font-size: 12px;
+    color: #fff;
+    padding-left: 48px;
+    line-height: 34px;
+    box-sizing: border-box;
+}
+.box .bottom .left .list2 .nav .nav1 .li2{
+    font-size: 12px;
+    color: #b9ddff;
+    padding-left: 10px;
+}
+.li1-1{
+    background: url(../images/left_01.jpg) no-repeat 20px 10px;
+    border-bottom: 1px solid #2869bd;
+}
+.li1-2{
+    background: url(../images/left_02.jpg) no-repeat 20px 10px;
+    border-bottom: 1px solid #2869bd;
+    border-top: 1px solid #498bd7;
+}
+.li1-3{
+    background: url(../images/left_03.jpg) no-repeat 20px 10px;
+    border-top: 1px solid #498bd7;
+}
+.box .bottom .left .list2 .nav .nav1{
+    display: none;
+}
+.box .bottom .left .list2 .nav .li1-1:hover .nav1{
+    display: block;
+}
+.box .bottom .left .list2 .nav .li1-1:hover{
+    background: url(../images/left_01.png) no-repeat 20px 10px,url(../images/left_hover.jpg) no-repeat;
+    color: #000;
+}
+.li2{
+    background: url(../images/jiao.png) no-repeat 0px 15px;
+}
+
+
+
+
+.box .bottom .right{
+    width: calc(100% - 197px);
+    height: 100%;
+    float: left;
+    position: relative;
+}
+.box .bottom .right .p2{
+    margin-left: 14px;
+    border-bottom: 1px solid #e3e3e3;
+    font-size: 12px;
+    color: #636363;
+    line-height: 24px;
+}
+.s2{
+    width: 5px;
+    height: 7px;
+    display: inline-block;
+    margin-right: 10px;
+    background: url(../images/home.jpg) no-repeat;
+}
+.box .bottom .right .s3{
+    margin: 0px 5px;
+}
+.box .bottom .right .right-1 {
+    height: 51px;
+}
+.box .bottom .right .right-1 .p4{
+    width: 24px;
+    height: 23px;
+    background: url(../images/seacth.jpg) no-repeat;
+    margin-top: 13px;
+    margin-left: 19px;
+    margin-right: 12px;
+}
+.box .bottom .right .right-1 .p5{
+    font-size: 12px;
+    color: #333333;
+    line-height: 51px;
+    font-weight: bold;
+    margin-right: 28px;
+}
+.box .bottom .right .right-1 label{
+    font-size: 12px;
+    color: #333333;
+    line-height: 51px;
+}
+.box .bottom .right .right-1 input{
+    border: 1px solid #bebebe;
+    width: 120px;
+    height: 24px;
+    margin-right: 18px;
+}
+.box .bottom .right .right-1 select{
+    border: 1px solid #bebebe;
+    width: 120px;
+    height: 24px;
+    margin-right: 23px;
+}
+.box .bottom .right .right-1 button{
+    border: 1px solid #bebebe;
+    width: 56px;
+    height: 22px;
+    background: #f8f8f8;
+    font-size: 12px;
+}
+.p6{
+    width: 15px;
+    height: 14px;
+    background: url(../images/t.jpg) no-repeat;
+    margin-top: 14px;
+    margin-right: 13px;
+}
+table{
+    width: 100%;
+    border-spacing: 0px;
+    border: 1px solid #d6d6d6;
+}
+.tr1{
+    background: #f4f4f4;
+}
+td{
+    text-align: center;
+    font-size: 12px;
+    height: 39px;
+    border-bottom: 1px solid #d6d6d6;
+}
+th{    
+    font-size: 14px;
+    height: 39px;
+}
+tr:nth-child(2n){
+    background: #f1f1f1;
+}
+.p3{
+    position: absolute;
+    left: 42px;
+    top: 580px;
+}
+.p4{
+    margin-top: 24px;
+    margin-right: 20px;
+}
+.but1{
+    width: 18px;
+    height: 18px;
+    border: 1px solid #a3a3a3;
+}

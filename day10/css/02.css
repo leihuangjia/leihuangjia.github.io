@@ -1,0 +1,44 @@
+.fieldset1{
+    width: 580px;
+    margin: 100px auto;
+}
+.fieldset2{
+    width: 540px;
+}
+h2{
+    font-size: 20px;
+}
+legend{
+    border: 1px solid #c6c8c7;
+    color: #4d6f7b;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 22px;
+    padding: 0px 20px;
+}
+label{
+    color: #676767;
+    font-size: 18px;
+}
+input{
+    font-size: 18px;
+}
+.label1{
+    display: inline-block;
+    width: 142px;
+    text-align: right;
+}
+.input1{
+    width: 80px;
+    height: 30px;
+    background: #d0f0fd;
+    border: 1px solid #597078;
+}
+.label2{
+    text-decoration: underline;
+    color: #060606;
+}
+.p1 a{
+    text-decoration: none;
+    color: #597078;
+}
