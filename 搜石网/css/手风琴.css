@@ -1,0 +1,74 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#box{
+    width: 744px;
+    height: 341px;
+    margin: 100px auto;
+}
+#box a{
+    display: block;
+    width: 727px;
+    height: 51px;
+    line-height: 51px;
+    padding-left: 15px;
+    box-sizing: border-box;
+    background: #a6a6a6;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: #000;
+    text-decoration: none;
+    position: relative;
+}
+#box div a::after{
+    content: "";
+    width: 0px;
+    height: 0px;
+    border: 6px solid transparent;
+    border-top-color: #fff;
+    position: absolute;
+    top: 50%;
+    right: 15px;  
+    margin-top: -3px;
+}
+#box div:target a::after{
+    border: 6px solid transparent;
+    border-left-color: #fff;
+    margin-top: -6px;
+}
+#box #list1 p{
+    width: 712px;
+    height: 146px;
+    display: none;
+    overflow: auto;
+    margin: auto;
+}
+#box #list2 p{
+    width: 712px;
+    height: 146px;
+    display: none;
+    overflow: auto;
+    margin: auto;
+}
+#box #list3 p{
+    width: 712px;
+    height: 146px;
+    display: none;
+    overflow: auto;
+    margin: auto;
+}
+#box #list1:target p{
+    display: block;
+}
+#box #list2:target p{
+    display: block;
+}
+#box #list3:target p{
+    display: block;
+}
+#box div:target a{
+    color: #fff;
+    background: #3995e8;
+}
