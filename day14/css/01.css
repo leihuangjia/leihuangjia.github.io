@@ -1,0 +1,15 @@
+body,html{
+    height: 100%;
+}
+.box{
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.box li{
+    width: 23%;
+    height: 300px;
+    border: 1px solid rgb(233, 51, 81);
+    margin-bottom: 20px;
+}
