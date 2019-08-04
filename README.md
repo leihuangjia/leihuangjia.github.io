@@ -4,3 +4,5 @@
 <a href="https://leihuangjia.github.io/day08/html/360.html">360测试</a>
 
 <a href="https://leihuangjia.github.io/day10/html/%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F.html">管理系统</a>
+
+<a href="https://leihuangjia.github.io/day14/html/%E5%BC%80%E6%BA%90%E5%8D%9A%E5%AE%A2.html">开源博客</a>
